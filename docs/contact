@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahboobunnisa - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="/">Mahboobunnisa</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about" class="">About</a></li>
+            <li><a href="/projects" class="">Projects</a></li>
+            <li><a href="/resume" class="">Resume</a></li>
+            <li><a href="/contact" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+<h1 class="section-title">Get In Touch</h1>
+
+<div style="max-width: 600px; margin: 0 auto; text-align: center;">
+    <p style="font-size: 1.2rem; margin-bottom: 3rem; color: var(--secondary-color);">
+        I'm currently looking for Data Science internships. Whether you have a question or just want to say hi, I'll try
+        my best to get back to you!
+    </p>
+
+    <div class="card" style="text-align: left; padding: 3rem;">
+        <div style="margin-bottom: 2rem;">
+            <label style="display: block; margin-bottom: 0.5rem;">Name</label>
+            <input type="text" placeholder="Your Name"
+                style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+        <div style="margin-bottom: 2rem;">
+            <label style="display: block; margin-bottom: 0.5rem;">Email</label>
+            <input type="email" placeholder="project@example.com"
+                style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.2); color: white;">
+        </div>
+        <div style="margin-bottom: 2rem;">
+            <label style="display: block; margin-bottom: 0.5rem;">Message</label>
+            <textarea rows="5" placeholder="Hello..."
+                style="width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid var(--glass-border); background: rgba(0,0,0,0.2); color: white;"></textarea>
+        </div>
+
+        <button class="btn" style="width: 100%;">Send Message</button>
+    </div>
+
+    <div style="margin-top: 4rem; display: flex; justify-content: center; gap: 2rem;">
+        <a href="mailto:mahboobunnisa@example.com" style="font-size: 1.5rem;">📧</a>
+        <a href="https://linkedin.com/in/mahboobunnisa" style="font-size: 1.5rem;">💼</a>
+        <a href="https://github.com/mahboobunnisa" style="font-size: 1.5rem;">🐙</a>
+    </div>
+</div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mahboobunnisa. All rights reserved.</p>
+        <p>Built with Python & Flask</p>
+    </footer>
+
+</body>
+</html>

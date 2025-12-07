@@ -1,0 +1,149 @@
+{
+    "profile": {
+        "name": "Mahboobunnisa",
+        "role": "Data Science Student",
+        "location": "Vijayawada",
+        "phone": "+91-8074844290",
+        "email": "mahboobunnisa@example.com",
+        "linkedin": "https://linkedin.com/in/mahboobunnisa",
+        "github": "https://github.com/mahboobunnisa",
+        "objective": "B.Tech 3rd-year Data Science student with hands-on experience in machine learning, data analysis, and AI projects. Skilled in Python, SQL, and data visualization, focusing on predictive modeling and NLP. Seeking a Microsoft Data Science Internship to apply skills in real-world data-driven solutions."
+    },
+    "education": [
+        {
+            "institution": "Prasad V Potluri Siddhartha Institute of Technology",
+            "location": "Vijayawada",
+            "degree": "B.Tech in Computer Science & Engineering (Data Science)",
+            "score": "CGPA: 8.9/10 (up to 2nd Year)",
+            "years": "2023 – Present"
+        },
+        {
+            "institution": "Sri Chaitanya JR College",
+            "location": "Vijayawada",
+            "degree": "Intermediate (MPC)",
+            "score": "Percentage: 95.2%",
+            "years": "2021 – 2023"
+        },
+        {
+            "institution": "VIKAS E.M High School",
+            "location": "Vijayawada",
+            "degree": "10th SSC",
+            "score": "Percentage: 100%",
+            "years": "2020 – 2021"
+        }
+    ],
+    "skills": {
+        "Programming": [
+            "Python",
+            "Java",
+            "C",
+            "R",
+            "SQL"
+        ],
+        "Data & ML": [
+            "Data Science",
+            "Machine Learning",
+            "Regression",
+            "Classification",
+            "Predictive Modeling",
+            "NLP",
+            "Data Structures & Algorithms",
+            "Databases"
+        ],
+        "Tools": [
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "Scikit-Learn",
+            "Jupyter Notebook",
+            "Colab"
+        ],
+        "Web/Dev": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React",
+            "Node.js",
+            "VS Code",
+            "Git/GitHub"
+        ]
+    },
+    "projects": [
+        {
+            "title": "Student Grade Prediction System",
+            "tech_stack": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Scikit-Learn",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "points": [
+                "Built ML model (95% accuracy); performed EDA to identify key factors.",
+                "Improved data quality by 35% and enabled early intervention, potentially improving performance by 20%."
+            ]
+        },
+        {
+            "title": "Voice Assistant using Gemini API",
+            "tech_stack": [
+                "Python",
+                "Google Gemini API",
+                "SpeechRecognition",
+                "Pyttsx3",
+                "yt-dlp"
+            ],
+            "points": [
+                "Developed real-time voice assistant with NLP; optimized audio pipeline, reducing latency by 40%.",
+                "Automated YouTube control; modular architecture for advanced voice commands."
+            ]
+        },
+        {
+            "title": "Sales Data Analysis",
+            "tech_stack": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Matplotlib",
+                "Seaborn"
+            ],
+            "points": [
+                "Cleaned/analyzed Superstore Sales dataset; visualized trends by category/region.",
+                "Improved reporting efficiency by 30% and supported data-driven decisions."
+            ]
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Foundations of R Software",
+            "issuer": "NPTEL (IIT Kharagpur)",
+            "date": "Jul–Oct 2025",
+            "honor": "Gold"
+        },
+        {
+            "name": "Data Engineering Virtual Internship",
+            "issuer": "AWS Academy",
+            "date": "Jan–Mar 2025"
+        },
+        {
+            "name": "Google Cloud Computing",
+            "issuer": "Credly",
+            "date": "May 2025"
+        },
+        {
+            "name": "Programming in Java",
+            "issuer": "NPTEL (IIT Kharagpur)",
+            "date": "Jul–Sep 2024"
+        },
+        {
+            "name": "Database Management Systems",
+            "issuer": "NPTEL (IIT Kharagpur)",
+            "date": "Jan–Mar 2025"
+        }
+    ],
+    "achievements": [
+        "Secured NPTEL Gold Certification in Foundations of R Software",
+        "3rd Place in CodeSpark 72-Hour Build Challenge (Quiz Web App)"
+    ]
+}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="section-title">About Me</h1>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 4rem; max-width: 900px; margin: 0 auto;">
+
+    <!-- Objective -->
+    <div class="card">
+        <h3>Career Objective</h3>
+        <p>{{ resume.profile.objective }}</p>
+    </div>
+
+    <!-- Education -->
+    <div>
+        <h2 style="margin-bottom: 2rem;">Education</h2>
+        <div style="display: grid; gap: 2rem;">
+            {% for edu in resume.education %}
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; color: var(--accent-color);">{{ edu.institution }}</h3>
+                        <p style="font-weight: 600;">{{ edu.degree }}</p>
+                    </div>
+                    <span
+                        style="background: rgba(255,255,255,0.1); padding: 0.2rem 0.8rem; border-radius: 4px; font-size: 0.9rem;">
+                        {{ edu.years }}
+                    </span>
+                </div>
+                <p style="color: var(--secondary-color);">{{ edu.location }}</p>
+                <p style="margin-top: 0.5rem;">{{ edu.score }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Achievements -->
+    <div>
+        <h2 style="margin-bottom: 2rem;">Achievements</h2>
+        <div class="card">
+            <ul style="list-style-position: inside; color: var(--text-color);">
+                {% for achievement in resume.achievements %}
+                <li style="margin-bottom: 0.5rem;">{{ achievement }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

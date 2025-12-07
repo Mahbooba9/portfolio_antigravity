@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahboobunnisa - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="/">Mahboobunnisa</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about" class="">About</a></li>
+            <li><a href="/projects" class="active">Projects</a></li>
+            <li><a href="/resume" class="">Resume</a></li>
+            <li><a href="/contact" class="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+<h1 class="section-title">My Projects</h1>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    
+    <div class="card" style="display: flex; flex-direction: column;">
+        <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">Student Grade Prediction System</h3>
+
+        <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Python
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Pandas
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                NumPy
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Scikit-Learn
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Matplotlib
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Seaborn
+            </span>
+            
+        </div>
+
+        <ul style="margin-top: auto; padding-left: 1.2rem; color: var(--secondary-color); font-size: 0.95rem;">
+            
+            <li style="margin-bottom: 0.5rem;">Built ML model (95% accuracy); performed EDA to identify key factors.</li>
+            
+            <li style="margin-bottom: 0.5rem;">Improved data quality by 35% and enabled early intervention, potentially improving performance by 20%.</li>
+            
+        </ul>
+    </div>
+    
+    <div class="card" style="display: flex; flex-direction: column;">
+        <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">Voice Assistant using Gemini API</h3>
+
+        <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Python
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Google Gemini API
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                SpeechRecognition
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Pyttsx3
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                yt-dlp
+            </span>
+            
+        </div>
+
+        <ul style="margin-top: auto; padding-left: 1.2rem; color: var(--secondary-color); font-size: 0.95rem;">
+            
+            <li style="margin-bottom: 0.5rem;">Developed real-time voice assistant with NLP; optimized audio pipeline, reducing latency by 40%.</li>
+            
+            <li style="margin-bottom: 0.5rem;">Automated YouTube control; modular architecture for advanced voice commands.</li>
+            
+        </ul>
+    </div>
+    
+    <div class="card" style="display: flex; flex-direction: column;">
+        <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">Sales Data Analysis</h3>
+
+        <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Python
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Pandas
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                NumPy
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Matplotlib
+            </span>
+            
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                Seaborn
+            </span>
+            
+        </div>
+
+        <ul style="margin-top: auto; padding-left: 1.2rem; color: var(--secondary-color); font-size: 0.95rem;">
+            
+            <li style="margin-bottom: 0.5rem;">Cleaned/analyzed Superstore Sales dataset; visualized trends by category/region.</li>
+            
+            <li style="margin-bottom: 0.5rem;">Improved reporting efficiency by 30% and supported data-driven decisions.</li>
+            
+        </ul>
+    </div>
+    
+</div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mahboobunnisa. All rights reserved.</p>
+        <p>Built with Python & Flask</p>
+    </footer>
+
+</body>
+</html>

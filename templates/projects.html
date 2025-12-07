@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="section-title">My Projects</h1>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    {% for project in resume.projects %}
+    <div class="card" style="display: flex; flex-direction: column;">
+        <h3 style="color: var(--accent-color); margin-bottom: 0.5rem;">{{ project.title }}</h3>
+
+        <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+            {% for tech in project.tech_stack %}
+            <span
+                style="font-size: 0.8rem; background: rgba(56, 189, 248, 0.1); color: var(--accent-color); padding: 0.2rem 0.6rem; border-radius: 20px;">
+                {{ tech }}
+            </span>
+            {% endfor %}
+        </div>
+
+        <ul style="margin-top: auto; padding-left: 1.2rem; color: var(--secondary-color); font-size: 0.95rem;">
+            {% for point in project.points %}
+            <li style="margin-bottom: 0.5rem;">{{ point }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

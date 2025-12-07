@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahboobunnisa - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="/">Mahboobunnisa</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about" class="">About</a></li>
+            <li><a href="/projects" class="">Projects</a></li>
+            <li><a href="/resume" class="active">Resume</a></li>
+            <li><a href="/contact" class="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+<h1 class="section-title">Resume & Skills</h1>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem;">
+
+    <!-- Skills Column -->
+    <div>
+        <h2 style="margin-bottom: 1.5rem;">Technical Skills</h2>
+        
+        <div style="margin-bottom: 2rem;">
+            <h4
+                style="color: var(--secondary-color); margin-bottom: 1rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+                Programming
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Python
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Java
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    C
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    R
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    SQL
+                </span>
+                
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 2rem;">
+            <h4
+                style="color: var(--secondary-color); margin-bottom: 1rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+                Data &amp; ML
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Data Science
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Machine Learning
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Regression
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Classification
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Predictive Modeling
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    NLP
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Data Structures &amp; Algorithms
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Databases
+                </span>
+                
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 2rem;">
+            <h4
+                style="color: var(--secondary-color); margin-bottom: 1rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+                Tools
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Pandas
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    NumPy
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Matplotlib
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Seaborn
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Scikit-Learn
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Jupyter Notebook
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Colab
+                </span>
+                
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 2rem;">
+            <h4
+                style="color: var(--secondary-color); margin-bottom: 1rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+                Web/Dev
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    HTML
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    CSS
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    JavaScript
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    React
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Node.js
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    VS Code
+                </span>
+                
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    Git/GitHub
+                </span>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- Certifications Column -->
+    <div>
+        <h2 style="margin-bottom: 1.5rem;">Certifications</h2>
+        <div style="display: grid; gap: 1.5rem;">
+            
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">Foundations of R Software</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">NPTEL (IIT Kharagpur)</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>Julâ€“Oct 2025</span>
+                    
+                    <span style="color: gold; border: 1px solid gold; padding: 0 0.4rem; border-radius: 4px;">Gold</span>
+                    
+                </div>
+            </div>
+            
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">Data Engineering Virtual Internship</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">AWS Academy</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>Janâ€“Mar 2025</span>
+                    
+                </div>
+            </div>
+            
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">Google Cloud Computing</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">Credly</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>May 2025</span>
+                    
+                </div>
+            </div>
+            
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">Programming in Java</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">NPTEL (IIT Kharagpur)</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>Julâ€“Sep 2024</span>
+                    
+                </div>
+            </div>
+            
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">Database Management Systems</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">NPTEL (IIT Kharagpur)</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>Janâ€“Mar 2025</span>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center; margin-top: 4rem;">
+    <p style="margin-bottom: 1rem; color: var(--secondary-color);">Want a physical copy?</p>
+    <a href="#" class="btn">Download PDF Resume</a>
+</div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mahboobunnisa. All rights reserved.</p>
+        <p>Built with Python & Flask</p>
+    </footer>
+
+</body>
+</html>

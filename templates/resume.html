@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1 class="section-title">Resume & Skills</h1>
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem;">
+
+    <!-- Skills Column -->
+    <div>
+        <h2 style="margin-bottom: 1.5rem;">Technical Skills</h2>
+        {% for category, skills in resume.skills.items() %}
+        <div style="margin-bottom: 2rem;">
+            <h4
+                style="color: var(--secondary-color); margin-bottom: 1rem; border-bottom: 1px solid var(--glass-border); padding-bottom: 0.5rem;">
+                {{ category }}
+            </h4>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.8rem;">
+                {% for skill in skills %}
+                <span
+                    style="background: var(--card-bg); padding: 0.5rem 1rem; border-radius: 8px; border: 1px solid var(--glass-border);">
+                    {{ skill }}
+                </span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <!-- Certifications Column -->
+    <div>
+        <h2 style="margin-bottom: 1.5rem;">Certifications</h2>
+        <div style="display: grid; gap: 1.5rem;">
+            {% for cert in resume.certifications %}
+            <div class="card" style="padding: 1.5rem;">
+                <h4 style="margin-bottom: 0.2rem;">{{ cert.name }}</h4>
+                <p style="color: var(--accent-color); font-size: 0.9rem;">{{ cert.issuer }}</p>
+                <div
+                    style="display: flex; justify-content: space-between; margin-top: 0.5rem; font-size: 0.85rem; color: var(--secondary-color);">
+                    <span>{{ cert.date }}</span>
+                    {% if cert.honor %}
+                    <span style="color: gold; border: 1px solid gold; padding: 0 0.4rem; border-radius: 4px;">{{
+                        cert.honor }}</span>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</div>
+
+<div style="text-align: center; margin-top: 4rem;">
+    <p style="margin-bottom: 1rem; color: var(--secondary-color);">Want a physical copy?</p>
+    <a href="#" class="btn">Download PDF Resume</a>
+</div>
+{% endblock %}

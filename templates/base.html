@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ resume.profile.name }} - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="{{ url_for('home') }}">{{ resume.profile.name }}</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('home') }}" class="{{ 'active' if request.endpoint == 'home' else '' }}">Home</a></li>
+            <li><a href="{{ url_for('about') }}" class="{{ 'active' if request.endpoint == 'about' else '' }}">About</a></li>
+            <li><a href="{{ url_for('projects') }}" class="{{ 'active' if request.endpoint == 'projects' else '' }}">Projects</a></li>
+            <li><a href="{{ url_for('resume') }}" class="{{ 'active' if request.endpoint == 'resume' else '' }}">Resume</a></li>
+            <li><a href="{{ url_for('contact') }}" class="{{ 'active' if request.endpoint == 'contact' else '' }}">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 {{ resume.profile.name }}. All rights reserved.</p>
+        <p>Built with Python & Flask</p>
+    </footer>
+
+</body>
+</html>

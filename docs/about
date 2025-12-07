@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahboobunnisa - Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="/">Mahboobunnisa</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about" class="active">About</a></li>
+            <li><a href="/projects" class="">Projects</a></li>
+            <li><a href="/resume" class="">Resume</a></li>
+            <li><a href="/contact" class="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        
+<h1 class="section-title">About Me</h1>
+
+<div style="display: grid; grid-template-columns: 1fr; gap: 4rem; max-width: 900px; margin: 0 auto;">
+
+    <!-- Objective -->
+    <div class="card">
+        <h3>Career Objective</h3>
+        <p>B.Tech 3rd-year Data Science student with hands-on experience in machine learning, data analysis, and AI projects. Skilled in Python, SQL, and data visualization, focusing on predictive modeling and NLP. Seeking a Microsoft Data Science Internship to apply skills in real-world data-driven solutions.</p>
+    </div>
+
+    <!-- Education -->
+    <div>
+        <h2 style="margin-bottom: 2rem;">Education</h2>
+        <div style="display: grid; gap: 2rem;">
+            
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; color: var(--accent-color);">Prasad V Potluri Siddhartha Institute of Technology</h3>
+                        <p style="font-weight: 600;">B.Tech in Computer Science &amp; Engineering (Data Science)</p>
+                    </div>
+                    <span
+                        style="background: rgba(255,255,255,0.1); padding: 0.2rem 0.8rem; border-radius: 4px; font-size: 0.9rem;">
+                        2023 â€“ Present
+                    </span>
+                </div>
+                <p style="color: var(--secondary-color);">Vijayawada</p>
+                <p style="margin-top: 0.5rem;">CGPA: 8.9/10 (up to 2nd Year)</p>
+            </div>
+            
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; color: var(--accent-color);">Sri Chaitanya JR College</h3>
+                        <p style="font-weight: 600;">Intermediate (MPC)</p>
+                    </div>
+                    <span
+                        style="background: rgba(255,255,255,0.1); padding: 0.2rem 0.8rem; border-radius: 4px; font-size: 0.9rem;">
+                        2021 â€“ 2023
+                    </span>
+                </div>
+                <p style="color: var(--secondary-color);">Vijayawada</p>
+                <p style="margin-top: 0.5rem;">Percentage: 95.2%</p>
+            </div>
+            
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: start; margin-bottom: 1rem;">
+                    <div>
+                        <h3 style="margin-bottom: 0.5rem; color: var(--accent-color);">VIKAS E.M High School</h3>
+                        <p style="font-weight: 600;">10th SSC</p>
+                    </div>
+                    <span
+                        style="background: rgba(255,255,255,0.1); padding: 0.2rem 0.8rem; border-radius: 4px; font-size: 0.9rem;">
+                        2020 â€“ 2021
+                    </span>
+                </div>
+                <p style="color: var(--secondary-color);">Vijayawada</p>
+                <p style="margin-top: 0.5rem;">Percentage: 100%</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Achievements -->
+    <div>
+        <h2 style="margin-bottom: 2rem;">Achievements</h2>
+        <div class="card">
+            <ul style="list-style-position: inside; color: var(--text-color);">
+                
+                <li style="margin-bottom: 0.5rem;">Secured NPTEL Gold Certification in Foundations of R Software</li>
+                
+                <li style="margin-bottom: 0.5rem;">3rd Place in CodeSpark 72-Hour Build Challenge (Quiz Web App)</li>
+                
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mahboobunnisa. All rights reserved.</p>
+        <p>Built with Python & Flask</p>
+    </footer>
+
+</body>
+</html>
