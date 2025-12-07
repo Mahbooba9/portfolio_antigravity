@@ -39,7 +39,7 @@ portfolio_antigravity/
     python app.py
     ```
 2.  **View in Browser**:
-    Open `http://127.0.0.1:5000` in your web browser.
+    Open [veiw project](http://127.0.0.1:5000) in your web browser.
 ---
 
 Built with ❤️ using Python & Flask.
